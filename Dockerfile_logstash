@@ -1,0 +1,4 @@
+FROM centos:7
+RUN  sudo yum -y install logstash
+EXPOSE 9600
+CMD  ["logstash"]

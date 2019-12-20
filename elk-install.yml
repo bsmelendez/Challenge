@@ -1,0 +1,5 @@
+---
+ - name: Playbook installation ELK
+   hosts: nodos
+   roles:
+    - rolesBriam
